@@ -18,6 +18,9 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Designer and <code className={styles.code}>developer</code>
         </p>
+        <p className={styles.warning}>
+          🚧 Please note this site is still under construction! 🚧
+        </p>
 
         <div className={styles.grid}>
           <Link href="/about">
