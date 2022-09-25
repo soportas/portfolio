@@ -9,18 +9,18 @@ module.exports = {
       sans: ["Raleway", "sans-serif"],
       serif: ["Crimson Pro", "serif"],
     },
-    colors: {
-      sacramento: {
-        DEFAULT: "#1C3738",
-        dark: "#15292A",
-      },
-      parchment: "#FFFBEE",
-      gold: "#A48058",
-    },
     extend: {
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(ellipse at left top, var(--tw-gradient-stops))",
+      },
+      colors: {
+        sacramento: {
+          DEFAULT: "#1C3738",
+          dark: "#15292A",
+        },
+        parchment: "#FFFBEE",
+        gold: "#A48058",
       },
     },
   },
